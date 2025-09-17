@@ -1,0 +1,45 @@
+body {
+  background-image: url("/TareaFormulario/img/fondVideo.jpg");
+    background-size: cover;
+    background-position: center;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+    width: 100%;
+    height: 150px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+    border: 5px dotted #000000;
+    font-size: 45px;
+}
+.video{
+    width: 50%;
+    min-height: 50%;
+    background-color: #2d2d2d;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    justify-content: right;
+}
+
+
+.Contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  justify-content: right;
+}

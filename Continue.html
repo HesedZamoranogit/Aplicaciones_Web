@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="continue-style.css" />
+    <link rel="html" href="index.html" />
+    <title>Continue Register</title>
+  </head>
+  <body>
+    <div class="banner" id="color">
+      <div class="banner__img">
+        <img class="banner__img--img" src="./img/Link-Click2.jpg" alt="" />
+      </div>
+      <div class="banner__login">
+        <header class="banner__header">
+          <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const savedUsername = localStorage.getItem("username") || "User";
+              document.getElementById("usernameDisplay").textContent =
+                savedUsername;
+            });
+          </script>
+
+          <h1 class="banner__titulo" id="usernameDisplay"></h1>
+          <p class="banner__descripcion" id="usernameDisplay">
+            HII!! please, complete the form to continue with your registration.
+          </p>
+        </header>
+        <form action="" class="banner__form">
+          <div class="form-group">
+            <div class="form-group--inline--avatar">
+              <span class="border-avatar">
+                <img
+                  class="form-group__input--avatar--preview"
+                  src="/TareaFormulario/img/mu.jpeg"
+                  alt="avatar"
+                />
+              </span>
+              <label class="form-group__label" for="avatar">Avatar</label>
+              <input
+                class="form-group__input--avatar"
+                type="file"
+                accept="image/*"
+                id="avatar"
+              />
+            </div>
+            <div class="form-group--color">
+              <label class="form-group__label" for="color">Color</label>
+              <label class="form-color-label">
+                <input
+                  class="form-color"
+                  type="color"
+                  name="color"
+                  value="Fondcolor"
+                />
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+           <input
+              class="input-video"
+              type="submit"
+              value="Mira esto esta chido"
+              placeholder="Mira esto esta chido"
+              onclick="window.location.href='video.html'; return false;"
+            />
+          </div>
+        
+        
+          <button
+            class="banner__button"
+            type="submit"
+            formaction="Continue.html"
+          >
+            Finish Registration
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
