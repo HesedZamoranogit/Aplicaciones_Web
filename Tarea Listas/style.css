@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(42, 73, 83);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container{
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #25594a96;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.titulo{
+    font-weight: bold;
+    color: rgb(37, 89, 74);
+}
+.Main{
+    text-align: center;
+}
