@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+.header {
+  background-color: #d9a0a1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 55px;
+}
+.user__account {
+  display: none;
+}
+.header__logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__tittle {
+  font-family: "Mea Culpa", sans-serif;
+  color: #8c4526;
+  font-weight: 400;
+  font-size: 65px;
+}
+.section__Search {
+  margin-top: 16px;
+  position: relative;
+}
+.img__hero {
+  width: 100%;
+  height: auto;
+}
+.img__search {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+}
+.input__search {
+  position: absolute;
+  top: 30%;
+  left: 3%;
+
+  padding: 12px 16px;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  width: 400px;
+}
+.input__search::placeholder {
+  font-family: "Gabriela", serif;
+  color: #8c4526;
+  font-size: 16px;
+}
+.main__categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+.section__title {
+  width: 200px;
+  height: auto;
+  border-radius: 35px;
+  text-align: center;
+  font-family: "Gabriela", serif;
+  background-color: #dd9b7e;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 12px 16px;
+}
+.main__categories-item{
+    font-family: "Afacado", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.main__categories{
+   gap: 24px;
+}
+.main__categories-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.main__categories-image{
+  width: 100px;
+  height: 130px;
+  border-radius: 12px;
+  border: 3px solid #DD9B7E;
+}
+.main{
+    position: relative;
+}
+.card{
+    width: 85px;
+    height: 85px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50px;
+    background-color: #CF7751;
+}
